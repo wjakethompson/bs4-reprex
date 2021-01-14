@@ -12,4 +12,4 @@ Remotes:
   rstudio/rmarkdown,
   rstudio/bookdown,
   rstudio/bslib,
-  rstudio/downlit
+  r-lib/downlit
