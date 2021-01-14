@@ -1,0 +1,15 @@
+Package: bs4reprex
+Title: Minimal Bookdown Reprex With bs4
+Version: 0.0.0.9000
+Imports:
+  knitr,
+  bookdown,
+  bslib,
+  downlit,
+  rmarkdown,
+  tidyverse
+Remotes:
+  rstudio/rmarkdown,
+  rstudio/bookdown,
+  rstudio/bslib,
+  rstudio/downlit
