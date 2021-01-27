@@ -1,9 +1,14 @@
+```{r}
+xaringanExtra::use_panelset()
+xaringanExtra::style_panelset(font_family = "inherit")
+```
+
 # Introduction {#intro}
 
 You can label chapter and section titles using `{#label}` after them, e.g., we can reference Chapter \@ref(intro).
 If you do not manually label them, there will be automatic labels anyway, e.g., Chapter \@ref(methods).
 
-## Figures and Tables {.tabset}
+## Figures and Tables {.panelset}
 
 ### Figures
 
@@ -26,7 +31,11 @@ knitr::kable(
 )
 ```
 
-##  {.unnumbered}
+##  {.unlisted .unnumbered}
 
 You can write citations, too.
 For example, we are using the **bookdown** package [@R-bookdown] in this sample book, which was built on top of R Markdown and **knitr** [@xie2015].
+
+## Something else
+
+Placeholder text.

@@ -7,8 +7,10 @@ Imports:
   bslib,
   downlit,
   rmarkdown,
-  tidyverse
+  tidyverse,
+  xaringanExtra,
 Remotes:
+  gadenbuie/xaringanExtra,
   rstudio/rmarkdown,
   rstudio/bookdown,
   rstudio/bslib,
